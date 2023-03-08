@@ -1,10 +1,10 @@
-package com.bokito.verification;
+package com.bokito;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PhoneAndEmailVerificationApplicationTests {
+class VerificationWithPhoneAndEmailApplicationTests {
 
     @Test
     void contextLoads() {
