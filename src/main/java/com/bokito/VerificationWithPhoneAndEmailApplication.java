@@ -22,11 +22,11 @@ public class VerificationWithPhoneAndEmailApplication {
     public static void main(String[] args) {
         SpringApplication.run(VerificationWithPhoneAndEmailApplication.class, args);
     }
-    @Bean
+    //@Bean
     PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
-    @Bean
+    //@Bean
     CommandLineRunner run(UserService userService, UserRepository userRepository, RoleRepository roleRepository){
         return args -> {
 
