@@ -10,6 +10,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +21,10 @@ public class VerificationWithPhoneAndEmailApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(VerificationWithPhoneAndEmailApplication.class, args);
+    }
+    @Bean
+    PasswordEncoder passwordEncoder(){
+        return new BCryptPasswordEncoder();
     }
     @Bean
     CommandLineRunner run(UserService userService, UserRepository userRepository, RoleRepository roleRepository){
