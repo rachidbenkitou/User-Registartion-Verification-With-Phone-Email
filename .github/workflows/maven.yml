@@ -1,0 +1,13 @@
+name: Build Spring Boot Application with Maven
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
