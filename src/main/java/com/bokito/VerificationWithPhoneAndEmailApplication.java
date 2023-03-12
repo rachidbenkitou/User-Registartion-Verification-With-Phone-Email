@@ -1,20 +1,7 @@
 package com.bokito;
 
-import com.bokito.role.Role;
-import com.bokito.role.RoleRepository;
-import com.bokito.user.User;
-import com.bokito.user.UserRepository;
-import com.bokito.user.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @SpringBootApplication
 public class VerificationWithPhoneAndEmailApplication {
@@ -22,6 +9,7 @@ public class VerificationWithPhoneAndEmailApplication {
     public static void main(String[] args) {
         SpringApplication.run(VerificationWithPhoneAndEmailApplication.class, args);
     }
+    /*
     //@Bean
     PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
@@ -48,6 +36,8 @@ public class VerificationWithPhoneAndEmailApplication {
             userService.addRoleToUser("rachid2024","Role_ADMIN");
 
         };
-    }
 
+
+    }
+*/
 }
