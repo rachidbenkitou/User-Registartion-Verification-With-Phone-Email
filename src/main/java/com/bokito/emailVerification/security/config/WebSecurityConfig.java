@@ -1,6 +1,6 @@
-package com.example.demo.security.config;
+package com.bokito.emailVerification.security.config;
 
-import com.example.demo.appuser.AppUserService;
+import com.bokito.emailVerification.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

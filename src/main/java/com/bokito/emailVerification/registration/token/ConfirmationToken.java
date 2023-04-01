@@ -1,6 +1,6 @@
-package com.example.demo.registration.token;
+package com.bokito.emailVerification.registration.token;
 
-import com.example.demo.appuser.AppUser;
+import com.bokito.emailVerification.appuser.AppUser;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

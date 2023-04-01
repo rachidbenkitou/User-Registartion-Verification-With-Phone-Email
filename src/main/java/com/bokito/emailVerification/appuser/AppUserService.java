@@ -1,7 +1,7 @@
-package com.example.demo.appuser;
+package com.bokito.emailVerification.appuser;
 
-import com.example.demo.registration.token.ConfirmationToken;
-import com.example.demo.registration.token.ConfirmationTokenService;
+import com.bokito.emailVerification.registration.token.ConfirmationToken;
+import com.bokito.emailVerification.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

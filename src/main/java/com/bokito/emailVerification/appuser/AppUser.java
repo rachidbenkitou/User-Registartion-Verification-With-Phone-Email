@@ -1,4 +1,4 @@
-package com.example.demo.appuser;
+package com.bokito.emailVerification.appuser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
